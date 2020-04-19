@@ -15,7 +15,7 @@ multiplicar /n 3 para restar /n 4 para sumar");
  System.out.println("Ingrese el segundo numero");
  a = teclado.next();
  switch (opcion){
-<<<<<<< HEAD
+
                 case 1 : a/b;
             break;
                 case 2 : a+b;
@@ -23,16 +23,6 @@ multiplicar /n 3 para restar /n 4 para sumar");
                 case 3 : a-b;
             break;
                 case 4 : a+b;
-=======
-                case 1 : a+b;
-            break;
-                case 2 : a-b;
-            break;
-                case 3 : a*b;
-            break;
-                case 4 : a/b;
->>>>>>> e9995c7e646b459b0dfbccec0d09d2692c8057b9
-            break;
 
 }
  System.out.println("El resultado es " + resultado.toString());
