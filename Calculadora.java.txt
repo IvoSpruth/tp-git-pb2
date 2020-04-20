@@ -26,4 +26,11 @@ public Double division(){
       
          return resultado=numero1/numero2;
  }
+public interger potencia(int base, int exponente){
+int respuesta=1;
+ for(int i =0; i<exponente; i++){
+  respuesta*= base;
+ }
+return respuesta;
+}
  
